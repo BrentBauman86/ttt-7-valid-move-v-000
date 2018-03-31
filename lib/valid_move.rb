@@ -1,13 +1,12 @@
 #require "pry"
-
 def valid_move?(board, index)
   if position_taken?(board, index)
     return false
-  elsif !index.between?(0, 8)
+      elsif !index.between?(0, 8)
   return false
-  else
+      else
     return true
-end
+  end
 end
 
 def position_taken?(board, index)
@@ -15,5 +14,5 @@ if board[index] == "" || board[index] == " " || board[index] == nil
     return  false
     else
       true
-end
+    end
 end

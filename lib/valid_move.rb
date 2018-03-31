@@ -13,5 +13,3 @@ if board[index] == "" || board[index] == " " || board[index] == nil
       true
 end
 end
-
-
